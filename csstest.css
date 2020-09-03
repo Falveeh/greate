@@ -1,4 +1,4 @@
-  body{ 
+  body{
   background-color: #EEEEEE;
   font-family: Arial;
 }
@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+.lover{
+  background-color: #DDDDDD;
+}
+
 #gs1{
   text-align: center;
   margin-bottom: 120px;
@@ -30,7 +34,6 @@
   text-align: center;
   font-size: 22px;
   font-weight: 600;
-
 }
 
 #place{
@@ -42,7 +45,6 @@
   font-size: 14px;
   padding-left: 28%;
   margin: 0;
-
 }
 
 .header{
@@ -82,7 +84,6 @@
   padding-top: 1px;
   padding-bottom: 1px;
   text-align: center;
-
 }
 
 #cash{
@@ -98,7 +99,27 @@
   margin: 0 20px 0 0;
 }
 
-#divka{
+.divka{
   display: flex;
   justify-content: center;
+}
+
+#lover{
+  background-color: #DDDDDD;
+  padding: 22px;
+  width: 950px;
+  margin-top: 40px;
+  text-align: right;
+  margin-left: 173px;
+}
+
+.ptc{
+  text-decoration: none;
+  color: black;
+  padding: 6px;
+}
+
+#default{
+  color: #444444;
+  margin-top: 8px;
 }
