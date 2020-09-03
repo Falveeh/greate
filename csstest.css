@@ -1,4 +1,4 @@
-  body{ 
+  body{
   background-color: #EEEEEE;
   font-family: Arial;
 }
@@ -19,6 +19,10 @@
   text-decoration: none;
   border-radius: 2px;
   text-align: center;
+}
+
+.lover{
+  background-color: #DDDDDD;
 }
 
 #gs1{
@@ -96,9 +100,32 @@
   width: 300px;
   height: 330px;
   margin: 0 20px 0 0;
+
+
 }
 
-#divka{
+.divka{
   display: flex;
   justify-content: center;
+}
+
+#lover{
+  background-color: #DDDDDD;
+  padding: 22px;
+  width: 950px;
+  margin-top: 40px;
+  text-align: right;
+  margin-left: 173px;
+}
+
+.ptc{
+  text-decoration: none;
+  color: black;
+  padding: 6px;
+  10px;
+}
+
+#default{
+  color: #444444;
+  margin-top: 8px;
 }
