@@ -1,0 +1,136 @@
+  body{
+  background-color: #EEEEEE;
+  font-family: Arial;
+}
+
+#cash{
+  font-size: 23px;
+  font-weight: 900;
+}
+
+#default{
+  color: #444444;
+  margin-top: 8px;
+}
+
+.divka{
+  display: flex;
+  justify-content: center;
+}
+
+.gs{
+  background-color: #F1C40F;
+  border-radius: 2px;
+  color: #2E3436;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#gs1{
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.header{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-left: 28%;
+}
+
+#header1{
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#lover{
+  background-color: #DDDDDD;
+  margin-left: 173px;
+  margin-top: 40px;
+  padding: 22px;
+  text-align: right;
+  width: 950px;
+}
+
+#place{
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.ptc{
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.Sel{
+  background-color: #F1C40F;
+  border-radius: 2px;
+  color: #2E3436;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#table{
+  border: 1px solid #000000;
+  height: 330px;
+  margin: 0 20px 20px 0;
+  text-align: center;
+  width: 300px;
+}
+
+.text{
+  font-size: 14px;
+  margin: 0;
+  padding-left: 28%;
+}
+
+#trombone {
+  background-color: #DDDDDD;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  width: 300px;
+}
+
+#txt{
+  margin-bottom: 43px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+@media (max-width: 950px){
+  .divka{
+    display:grid;
+  }
+}
+
+@media (max-width: 950px) {
+    #lover{
+      margin-left: 0px;
+      max-width: 950px;
+      text-align: justify;
+    }
+  }
